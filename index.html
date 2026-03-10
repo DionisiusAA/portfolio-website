@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+
+  <link rel="shortcut icon" href="./assets/images/icon website.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profil.png" alt="Dionisius Adonis Adiwijaya" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Dionisius Adonis Adiwijaya">Dionisius Adonis Adiwijaya</h1>
+
+          <p class="title">Fullstack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:dionisiusadiwijaya333@gmail.com" class="contact-link">dionisiusadiwijaya333@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a class="contact-link">0821-2374-5077</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-number-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Born</p>
+
+              <time datetime="">13 March 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bekasi, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/DionisiusAA" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/dionisiusaa" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/dionisiuswjya" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <div class="main-content">
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Bachelor’s Degree student in Information Systems with a strong passion for Fullstack Development. Skilled in developing end-to-end web applications, including building user-friendly and responsive frontend interfaces as well as designing and managing backend systems, APIs, and databases. Adept at combining technical expertise with creativity to deliver scalable and impactful digital solutions. Possesses strong communication skills and the ability to collaborate effectively in team environments as well as work independently.
+          </p>
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/frontend-development.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend Development</h4>
+
+                <p class="service-item-text">
+                  Building responsive and user-friendly interfaces.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/backend-development.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+
+                <p class="service-item-text">
+                  Developing server-side logic and application functionality.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/database-management.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Management</h4>
+
+                <p class="service-item-text">
+                  Designing, managing, and optimizing databases.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/system-integration.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">System Integration</h4>
+
+                <p class="service-item-text">
+                  Integrating APIs and connecting systems for seamless data flow.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PT United Tractors (Yayasan Karya Bakti United Tractors Learning Center)</h4>
+
+              <p class="timeline-text">
+                As IT Developer Intern
+              </p>
+
+              <span>February 2024 - June 2024</span>
+
+              <ul class="timeline-text">
+                <li>
+                  • Carried out end-to-end Data Integration across multiple entities, with the final stage 
+                  being the creation of an interactive Dashboard to support management decision
+                  making.
+                </li>
+
+                <li>
+                  • Designed and implemented data transfer processes using APIs, ensuring accurate and 
+                  seamless system integration at Odoo platform.
+                </li>
+
+                <li>
+                  • Managed and organized employee data in both Odoo ERP and Excel, improving data 
+                  accuracy, consistency, and accessibility for HR operations.
+                </li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Catos Indonesia</h4>
+
+              <p class="timeline-text">
+                As IT Junior Intern
+              </p>
+
+              <span>October 2024 - September 2025</span>
+
+              <ul class="timeline-text">
+                <li>
+                  • Designed and developed a fully functional web-based Point of Sale (POS) system for 
+                  WIBY Tech, enabling efficient management of sales transactions, reporting, and 
+                  dashboard.
+                </li>
+
+                <li>
+                  • Created and launched the official website for WIBY Foundation, serving as a 
+                  professional company portfolio to showcase philanthropic programs, projects, and 
+                  corporate social responsibility initiatives.
+                </li>
+
+                <li>
+                  • Developed the frontend of the Human Resources section for Colose Canisius School’s 
+                  website, focusing on creating a user-friendly interface and ensuring smooth 
+                  functionality for managing employee-related information.
+                </li>
+              </ul>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kalbis University</h4>
+
+              <span>September 2021 - December 2025</span>
+
+              <p class="timeline-text">
+                Bachelor’s Degree of Information System.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">License & Certification</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dicoding Indonesia</h4>
+
+              <span>May 2023 - May 2026</span>
+
+              <p class="timeline-text">
+                Basic JavaScript programming certificate.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Organization</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Information System Association Organization (HIMSI)</h4>
+
+              <span>July 2023 - June 2024</span>
+
+              <p class="timeline-text">
+                Member of the Internal & External Division.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <div class="skills-wrapper content-card">
+
+            <ul class="skills-column">
+              <li>• HTML</li>
+              <li>• Laravel</li>
+              <li>• JavaScript</li>
+              <li>• PHPMyAdmin</li>
+              <li>• Odoo</li>
+              <li>• Figma</li>
+              <li>• Visio</li>
+            </ul>
+
+            <ul class="skills-column">
+              <li>• CSS</li>
+              <li>• ReactJS</li>
+              <li>• Python</li>
+              <li>• PostgreSQL</li>
+              <li>• GIS</li>
+              <li>• Trello</li>
+              <li>• UML</li>
+            </ul>
+
+          </div>
+
+        </section>
+
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Frontend Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Backend Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>UI/UX Design</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Frontend Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Backend Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>UI/UX Design</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="frontend development">
+              <a href="https://www.wibytech.id/wibyfoundation/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/wiby-foundation.png" alt="wiby foundation website" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">WIBY Foundation Website</h3>
+
+                <p class="project-category">Frontend Development (JavaScript, React.JS)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="frontend development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/website-odoo.png" alt="odoo cms" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Odoo CMS</h3>
+
+                <p class="project-category">Frontend Development (Odoo)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="backend development">
+              <a href="https://github.com/DionisiusAA/payroll-canisius">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/payroll-canisius.png" alt="payroll canisius website" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Payroll Canisius Website</h3>
+
+                <p class="project-category">Backend Development (Laravel, PostgreSQL)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="backend development">
+              <a href="https://github.com/DionisiusAA/point-of-sale">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/point-of-sale.png" alt="point of sale website" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Point of Sale Website</h3>
+
+                <p class="project-category">Backend Development (Laravel, Xampp)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="backend development">
+              <a href="https://colab.research.google.com/drive/17gkCogPNyJ2YVFO0I6PO5lfVUN7cqdZE?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/big-data.png" alt="big data analytics" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Big Data Analytics</h3>
+
+                <p class="project-category">Backend Development (Python)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ui/ux design">
+              <a href="https://www.figma.com/file/TOsdAdEJ0iUlUGc7aqEsMG/Portfolio-Company-Profile-Design">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/company-profile.png" alt="company profile" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Company Profile</h3>
+
+                <p class="project-category">UI/UX Design (Figma)</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
