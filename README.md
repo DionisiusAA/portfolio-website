@@ -1,3 +1,5 @@
+<img width="1893" height="911" alt="web" src="https://github.com/user-attachments/assets/bf38d4bd-776d-42f1-97fc-2ca83947a7b8" />
+
 # Portfolio Website
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
